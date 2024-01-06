@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <style>
+
+        body{
+            max-height: 1000px;
+        }
+       
+
+        nav{
+
+            /* max-width: 1200px; */
+        /* margin: auto; */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        }
+
+        nav > img {
+
+            width:70px;
+        }
+        .nav >a{
+
+            text-decoration: none;
+            color: black;
+            padding-right: 50px;;
+
+            
+        }
+
+        nav >button{
+            width: 150px;
+            height: 30px;
+            justify-self: end;
+            padding-top: 2px;
+            background-color: rgb(104, 215, 104);
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        .nav > a:hover{
+
+            color: gold;
+        }
+
+    .hero-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* border:2px solid black; */
+        /* padding:10px 10px 0 10px; */
+        /* margin: auto; */
+        /* max-width: 1200px; */
+        
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        align-items: center;
+        gap:20px;
+    }
+    
+    .sub-1{
+
+        justify-self: center;
+        
+        padding:0 50px;
+        align-content: center;
+        
+
+    }
+
+    .sub-1 >h1{
+
+        font-size: 40px;
+    }
+    .sub-1 > p{
+
+        color: grey;
+    }
+
+    .sub-1 >button{
+
+        padding: 8px 50px;
+        color: antiquewhite;
+        background-color: black;
+        border-radius: 5px;
+
+    }
+     .sub-1 button:hover{
+
+        padding: 10px 52px;
+    }
+    .sub-2{
+
+        max-width: 900vh;
+        height: 100%;
+        background-color: yellow;
+
+    }
+
+    .sub-2 > img{
+
+        height: 100%;
+        width: 70%;
+
+    }
+    </style>
+</head>
+<body >
+    
+    <nav>
+        <img
+          src="logo.jpg"
+          alt="Logo"
+        />
+        <div class =" nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <button>Login</button>
+      </nav>
+    <div class="hero-container">
+        <div class="inside sub-1">
+
+            <h1>Healty Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa perferendis hic, voluptates nulla nihil modi nonsit amet consectetur, adipisicing elit. Culpa perferendis hic, voluptates nulla nihil modi non  suscipit illum amet voluptatibus earum porro, praesentium sequi mollitia architecto quis, nisi excepturi? Architecto.</p>
+            <button type="button" >Read More</button>
+        </div>
+        <div class="inside sub-2">
+            <img src="veg.jpg" alt="vegitable">
+        </div>
+        <div class="inside sub-3"></div>
+    </div>
+</body>
+</html>
